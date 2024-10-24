@@ -1,6 +1,6 @@
 package aston.homework.game;
 
-public class Enemy {
+public class Enemy implements Mortal{
     private int health;
     
     /**
@@ -23,6 +23,9 @@ public class Enemy {
     		health = 0;
     	}
     	System.out.println("Враг получил урон, текущее здоровье: " + health);
+    }
+    public boolean isAlive() {
+        return health > 0;
     }
 }
 
