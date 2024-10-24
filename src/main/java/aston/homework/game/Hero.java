@@ -9,4 +9,8 @@ public class Hero {
     public String getName() {
         return this.name;
     }
+    public void attackEnemy() {
+        System.out.println("Герой атакует врага.");
+    }
+
 }
