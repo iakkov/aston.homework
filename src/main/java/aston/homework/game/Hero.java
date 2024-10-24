@@ -1,6 +1,6 @@
 package aston.homework.game;
 
-public class Hero {
+public abstract class Hero {
     private String name;
 
     /**
@@ -12,8 +12,5 @@ public class Hero {
     public String getName() {
         return this.name;
     }
-    public void attackEnemy() {
-        System.out.println(name + " атакует врага.");
-    }
-
+    public abstract void attackEnemy(Enemy enemy);
 }
