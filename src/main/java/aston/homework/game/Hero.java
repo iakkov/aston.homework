@@ -3,6 +3,9 @@ package aston.homework.game;
 public class Hero {
     private String name;
 
+    /**
+     * Конструктор, который принимает имя героя
+     */
     public Hero(String name) {
         this.name = name;
     }
@@ -10,8 +13,7 @@ public class Hero {
         return this.name;
     }
     public void attackEnemy() {
-        System.out.println("Герой атакует врага.");
-
+        System.out.println(name + " атакует врага.");
     }
 
 }

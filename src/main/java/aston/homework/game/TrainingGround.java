@@ -7,6 +7,7 @@ public class TrainingGround {
         Warrior warrior = new Warrior("Jack");
         Mage mage = new Mage("William");
         Archer archer = new Archer("Jose");
+        
         warrior.attackEnemy();
         mage.attackEnemy();
         archer.attackEnemy();
