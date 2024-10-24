@@ -11,6 +11,7 @@ public class Hero {
     }
     public void attackEnemy() {
         System.out.println("Герой атакует врага.");
+
     }
 
 }
